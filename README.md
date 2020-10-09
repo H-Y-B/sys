@@ -1,1 +1,5 @@
 # sys
+
+ARCH: RISCV
+
+
