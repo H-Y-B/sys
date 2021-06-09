@@ -11,7 +11,8 @@ LIB: riscv-glibc
 # [strace tools](https://strace.io/)
 
 ```
-./configure --host=arm-linux CC=riscv64-unknown-linux-gnu --prefix=/.../
+./bootstrap
+./configure --host=riscv64-unknown-linux-gnu --prefix=/???/
 make CFLAGS="-static"
 ```
 
